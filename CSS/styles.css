@@ -1,0 +1,120 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-slate);
+  font-weight: 400;
+}
+h1 {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1.12px;
+}
+h2 {
+  color: var(--color-navy-blue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+h3 {
+  color: var(--color-navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+button {
+  color: var(--color-white);
+  background-color: var(--color-iris);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+/* Logo */
+.logo-part-one {
+  color: var(--color-iris);
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-part-two {
+  color: var(--color-navy-blue);
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+/* Links navigation */
+.nav-links > li > a {
+  color: var(--color-navy-blue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.nav-links > li > a:hover,
+.nav-links > li > a:focus {
+  color: var(--color-ocean);
+}
+/* Address */
+.mail,
+.telephone {
+  color: var(--color-slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.address > ul > li > a:hover,
+.address > ul > li > a:focus {
+  color: var(--color-ocean);
+}
+.button-service {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: var(--color-ocean);
+}
+.buttons-navigation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+.buttons-navigation > li > button:hover,
+.buttons-navigation > li > button:focus {
+  background-color: var(--color-ocean);
+}

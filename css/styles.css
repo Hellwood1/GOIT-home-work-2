@@ -66,6 +66,8 @@ a {
 }
 .logo-part-two {
   color: var(--color-cloud);
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.03em;
 }
 /* Links navigation */
 .nav-links > li > a {

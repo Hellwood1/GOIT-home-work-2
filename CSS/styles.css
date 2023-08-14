@@ -62,19 +62,13 @@ a {
   color: var(--color-iris);
   font-family: 'Raleway';
   font-size: 18px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 }
 .logo-part-two {
-  color: var(--color-navy-blue);
-  font-family: 'Raleway';
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+  color: var(--color-cloud);
 }
 /* Links navigation */
 .nav-links > li > a {
@@ -120,4 +114,13 @@ a {
 .buttons-navigation > li > button:hover,
 .buttons-navigation > li > button:focus {
   background-color: var(--color-ocean);
+}
+
+.footer {
+  background-color: var(--color-grey);
+}
+.footer-text {
+  color: var(--color-cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

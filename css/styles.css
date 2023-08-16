@@ -16,40 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--color-slate);
   background-color: var(--color-white);
-}
-h1 {
-  color: var(--color-white);
-  text-align: center;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 1.12px;
-}
-h2 {
-  color: var(--color-navy-blue);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
-}
-h3 {
-  color: var(--color-navy-blue);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px;
-}
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-button {
-  color: var(--color-white);
-  background-color: var(--color-iris);
-  cursor: pointer;
+  font-style: normal;
 }
 a {
   text-decoration: none;
@@ -65,7 +32,7 @@ a {
   text-transform: uppercase;
 }
 .logo-part-two {
-  color: var(--color-navy-blue);
+  color: var(--color-navy-blue-modal);
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.03em;
 }
@@ -75,55 +42,123 @@ a {
   letter-spacing: 0.03em;
 }
 /* Links navigation */
-.nav-links > li > a {
+.nav-link {
   color: var(--color-navy-blue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
-.nav-links > li > a:hover,
-.nav-links > li > a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--color-ocean);
 }
-/* Address */
 .address {
   font-style: normal;
 }
-.mail,
-.telephone {
+.contacts {
   color: var(--color-slate);
   font-size: 16px;
   font-weight: 400;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.address > ul > li > a:hover,
-.address > ul > li > a:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--color-ocean);
 }
+/* Hero section */
+.hero-section {
+  background-color: var(--color-navy-blue);
+}
+.hero-section-title {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 .button-service {
-  font-size: 16px;
+  color: var(--color-white);
+  background-color: var(--color-iris);
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button-service:hover,
 .button-service:focus {
   background-color: var(--color-ocean);
 }
-.buttons-navigation {
+/* Goals section */
+.goals-section-item {
+  color: var(--color-navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.goals-section-text {
+  color: var(--color-slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Team section */
+.team-section {
+  background-color: var(--color-cloud);
+}
+.team-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-section-item {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0.83;
+  letter-spacing: 0.02em;
+}
+.team-section-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.6;
+  letter-spacing: 0.02em;
+}
+/* Portfolio section */
+.portfolio-button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
 }
-.buttons-navigation > li > button:hover,
-.buttons-navigation > li > button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   background-color: var(--color-ocean);
 }
-
+.portfolio-section-title {
+  font-style: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.portfolio-section-item {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.002em;
+}
+.portfiloi-section-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.6;
+  letter-spacing: 0.002em;
+}
 .footer {
   background-color: var(--color-grey);
 }

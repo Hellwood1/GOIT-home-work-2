@@ -74,7 +74,7 @@ a {
 .hero-section-title {
   color: var(--color-white);
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -111,11 +111,16 @@ a {
   background-color: var(--color-cloud);
 }
 .team-section-title {
+  color: var(--color-navy-blue);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+}
+.team-section-list {
+  background-color: var(--color-white);
 }
 .team-section-item {
   font-size: 20px;
@@ -126,7 +131,7 @@ a {
 .team-section-text {
   font-size: 16px;
   font-weight: 400;
-  line-height: 0.6;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* Portfolio section */

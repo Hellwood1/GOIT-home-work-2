@@ -136,16 +136,6 @@ a {
   letter-spacing: 0.02em;
 }
 /* Portfolio section */
-.portfolio-button {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
-}
-.portfolio-button:hover,
-.portfolio-button:focus {
-  background-color: var(--color-ocean);
-}
 .portfolio-section-title {
   font-style: 36px;
   line-height: 1.1;

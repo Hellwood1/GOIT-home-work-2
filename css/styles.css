@@ -123,7 +123,7 @@ a {
   background-color: var(--color-white);
 }
 .team-section-item {
-  color: var(--color-navy-blue);
+  color: var(--color-navy-blue-modal);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;

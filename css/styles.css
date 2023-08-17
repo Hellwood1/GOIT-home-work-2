@@ -21,6 +21,9 @@ body {
 a {
   text-decoration: none;
 }
+.list {
+  list-style-type: none;
+}
 /* Logo */
 .logo-part-one {
   color: var(--color-iris);
